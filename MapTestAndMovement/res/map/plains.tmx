@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="grass-tiles-2-small.png" trans="ff00ff" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="56" name="tree2-final" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tree2-final.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="105" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32">
+  <image source="hyptosis_til-art-batch-2.png" trans="ff00ff" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="1005" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-1.png" trans="ff00ff" width="960" height="960"/>
+ </tileset>
+ <layer name="ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UMW7CMBiA0QyBzJW4R6F7TwLlHm3FOaiae3bGCGUqAseJE5c+S2/J8Cv2J3tfV9We0XTraTH/v5C/xzbYRZj7HEqRu8d78BHhELwVcB5zK6VH1yTmLo0ldU85Z5fUY2rLJk3MbD0eq8dz6LG+4Wf5+9smoqEeaT3urVVz/XvOHm3wlVHqmeWcXXKPzwH7+kteJ+xx9q3H3R6dKXoc68sd7tvlv/RI8dIMn9Hn7WoL2POj69PD3cjv/G7FvFnuBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQFWdAP60zuVAnAAA
+  </data>
+ </layer>
+ <layer name="collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WQUrDUBRA0QwCXZtuRDely1ALLk6hFGpJaos2Odp74JNBMgj/kpc/DH/X0zgM7xeu5/G677Qdd+sW1cNyqz3uNsNwv7n83rXdao+Hz/1+nNnzU/eu7VZ75HxL9jicTWvOKdmSPQ5n0/Gcqs/Ovsd3a+7Z37LGf0T+fxyvt6Pr3LOXmPoGOl99Nddhat+n7l1i6htYc26JPV7H3dpOXJecV3tLzi2xx8t43pp79ifWPm+JPdZ06ry1hHpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mGph6UelnpY6mH5jz0+AEQT+FxAnAAA
+  </data>
+ </layer>
+ <layer name="above" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3WQQrCQAwF0FkIXVUPYj2JN/L0DogwlBgqmBbhPRgonV1C/qQ1/s08tXbu5zJ9d0eNa6/10s8tqHl2R617UvPsjhpjNsmp443ZtM6piv48TvnhZcym93fFO6IfuWgG1v9++Y7oRy6agT1yi1w0A5W5xTbZvmX/3V+2b3GcaN8CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+OQJb0lbd0CcAAA=
+  </data>
+ </layer>
+</map>
